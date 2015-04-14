@@ -1,0 +1,12 @@
+image: bradrydzewski/node:0.10
+
+script:
+  - npm -q install
+  - npm -q -g install gulp
+  - gulp test
+  - gulp deploy --$DRONE_BRANCH --$DRONE_COMMIT
+
+notify:
+  email:
+    recipients:
+      - pedroarapua@gmail.com
