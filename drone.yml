@@ -10,3 +10,10 @@ notify:
   email:
     recipients:
       - pedroarapua@gmail.com
+  slack:
+    webhook_url: 'https://hooks.slack.com/services/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'
+    username: 'slack-commit'
+    channel: '#general'
+    on_started: false
+    on_success: true
+    on_failure: true
