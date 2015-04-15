@@ -10,10 +10,4 @@ notify:
   email:
     recipients:
       - pedroarapua@gmail.com
-  slack:
-    webhook_url: 'https://hooks.slack.com/services/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'
-    username: 'drone'
-    channel: '#general'
-    on_started: false
-    on_success: true
-    on_failure: true
+  
