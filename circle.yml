@@ -8,5 +8,5 @@ dependencies:
 
 test:
     override:
-        - docker-compose run -d --no-deps node1
-        - cd node; mocha
+        - docker-compose run -d --no-deps app1
+        - cd app; mocha
