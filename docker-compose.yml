@@ -1,0 +1,30 @@
+nginx:
+    build: ./nginx
+    links:
+        - app1:app1
+        - app2:app2
+        - app3:app3
+    ports:
+        - "80:80"
+app1:
+    build: ./app
+    links:
+        - redis
+    ports:
+        - "3000"
+app2:
+    build: ./app
+    links:
+        - redis
+    ports:
+        - "3000"
+app3:
+    build: ./app
+    links:
+        - redis
+    ports:
+        - "3000"
+redis:
+    image: redis
+    ports:
+        - "6379"
