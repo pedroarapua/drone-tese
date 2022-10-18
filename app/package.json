@@ -12,6 +12,6 @@
     "elasticsearch": "^4.0.2",
     "express": "^4.12.3",
     "redis": "^0.12.1",
-	"mocha": "^2.2.1"
+	"mocha": "^10.1.0"
   }
 }
