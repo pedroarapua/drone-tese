@@ -9,7 +9,7 @@
   "author": "Pedro Henrique F. Dias",
   "license": "ISC",
   "dependencies": {
-    "elasticsearch": "^4.0.2",
+    "elasticsearch": "^16.7.3",
     "express": "^4.12.3",
     "redis": "^0.12.1",
 	"mocha": "^2.2.1"
